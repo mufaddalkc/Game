@@ -1,0 +1,31 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.row {
+  display: flex;
+  gap: 4px;
+}
+
+.column {
+  width: 64px;
+  padding: 16px;
+  height: 64px;
+  background-color: gray;
+  border-radius: 8px;
+
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 32px;
+}
